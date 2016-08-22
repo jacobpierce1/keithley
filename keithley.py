@@ -85,12 +85,6 @@ class Keithley:
         
 
 k = Keithley()
-# for i in range(3,4):
-#     print "testing " + str(i) + "s pause"
-#     k.ext_sweep(48, 58, 20E9nn-2, i)
-#     file_name = "single_channel_" + str(i) + "s_pause_before_record"
-#     k.write_to_usb(file_name)
-#     time.sleep(6)
 
 #k.set_voltage(27)
 k.ext_sweep(20,30, 40E-3, 3)

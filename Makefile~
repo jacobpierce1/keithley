@@ -1,7 +1,0 @@
-all: view_diet.cpp
-	g++ -std=c++11 -Wall -o run view_diet.cpp
-
-clean: 
-	rm run
-	rm *~
-	rm ./food_labels/*~
